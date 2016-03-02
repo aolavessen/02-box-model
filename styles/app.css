@@ -1,10 +1,35 @@
-*{
-  box-sizing: border-box;
+
+
+.container{
+  max-width: 40rem;
+  margin: auto;
 }
 
+h3{
+  margin: 0;
+}
 
-.column {
-  max-width: calc(30% - 2rem);
-  margin: 0 1rem;
-  height: 10rem;
+.left-column, .center-column, .right-column{
+  float: left;
+}
+
+.left-column{
+  width: 1rem;
+  float: left;
+
+  margin: auto;
+}
+
+.center-column{
+  width: 1rem
+  float:left;
+
+  margin: auto;
+}
+
+.right-column{
+  width: 1rem;
+  float: left;
+
+  margin: auto;
 }
