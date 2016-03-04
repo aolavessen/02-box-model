@@ -1,4 +1,10 @@
+*{
+  box-sizing: border-box;
+}
 
+*::before, *::after {
+  box-sizing: inherit;
+}
 
 .container{
   max-width: 40rem;
@@ -14,6 +20,7 @@ h3{
 }
 
 .left-column{
+  display: block;
   width: 1rem;
   float: left;
 
@@ -21,6 +28,7 @@ h3{
 }
 
 .center-column{
+  display: block;
   width: 1rem
   float:left;
 
@@ -28,6 +36,7 @@ h3{
 }
 
 .right-column{
+  display: block;
   width: 1rem;
   float: left;
 
