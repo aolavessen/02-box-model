@@ -11,24 +11,21 @@ body {
 }
 
 .grid {
-  margin: 1rem;
-  border: .1rem solid black;
+  margin: auto;
   max-width: 63.13rem;
-  height: 25rem;
-  float: left;
+  /*height: 30rem;*/
 }
 
 .big_box {
+  width: calc(100% / 3 - 1rem);
   max-width: 20rem;
-  height: 20rem;
   margin: .5rem;
-  border: .1rem solid gray;
+
   float: left;
 }
 
 .bottom_box {
-  width: 20rem;
-  /*height: 3rem;*/
+  overflow: auto;
   border-bottom: .1rem solid gray;
 }
 
@@ -45,13 +42,12 @@ body {
 
 .bottom_right_box {
   float: right;
-  display: flex;
-  align-items: center;
 }
 
 .octocat__pic {
-  max-width: 19.9rem;
-  /*display: inline;*/
+  border: .1rem solid gray;
+  width: 100%;
+  display: block;
 }
 
 .octocat__no {
